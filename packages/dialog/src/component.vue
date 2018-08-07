@@ -17,7 +17,7 @@
           </div>
         </slot>
       </div>
-  </div>
+    </div>
   </div>
 </template>
 <script>
@@ -102,9 +102,9 @@ export default {
   position: fixed;
   padding: 10px;
   color: #fff;
-  background:#697594;
+  background: #697594;
   border-radius: 4px;
-  top:50%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
@@ -124,25 +124,25 @@ export default {
     border-radius: 50%;
   }
   .be-icon-eyecheck {
-    background-image: url("../../../public/img/icon/icon-eyecheck.png");
+    background-image: url('../../../public/img/icon/icon-eyecheck.png');
   }
   .be-icon-eyeposition {
-    background-image: url("../../../public/img/icon/icon-eyeposition.png");
+    background-image: url('../../../public/img/icon/icon-eyeposition.png');
   }
   .be-icon-fourlamp {
-    background-image: url("../../../public/img/icon/icon-fourlamp.png");
+    background-image: url('../../../public/img/icon/icon-fourlamp.png');
   }
   .be-icon-fusion {
-    background-image: url("../../../public/img/icon/icon-fusion.png");
+    background-image: url('../../../public/img/icon/icon-fusion.png');
   }
   .be-icon-sensitivity {
-    background-image: url("../../../public/img/icon/icon-sensitivity.png");
+    background-image: url('../../../public/img/icon/icon-sensitivity.png');
   }
   .be-icon-stecheck {
-    background-image: url("../../../public/img/icon/icon-stecheck.png");
+    background-image: url('../../../public/img/icon/icon-stecheck.png');
   }
   .be-icon-snr {
-    background-image: url("../../../public/img/icon/icon-snr.png");
+    background-image: url('../../../public/img/icon/icon-snr.png');
   }
   .be-dialog-content {
     line-height: 1.8;
@@ -159,9 +159,9 @@ export default {
     width: 600px;
     padding: 30px;
     .be-dialog-title {
-    line-height: 60px;
-    font-size: 28px;
-    // height: 40px;
+      line-height: 60px;
+      font-size: 28px;
+      // height: 40px;
     }
     .be-dialog-icon {
       margin: 20px auto;
@@ -183,7 +183,7 @@ export default {
 }
 
 @media only screen and(max-width: 768px) {
-  .be-dialog{
+  .be-dialog {
     width: 100vw;
   }
 }

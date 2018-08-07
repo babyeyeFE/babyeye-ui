@@ -1,5 +1,5 @@
-import Vue from 'vue';
-import App from './App.vue';
+import Vue from 'vue'
+import App from './App.vue'
 
 import * as BabyeyeUI from '../packages'
 import { Button } from '../packages'
@@ -43,8 +43,8 @@ MessageBox.alert({
 Vue.use(BabyeyeUI)
 Vue.use(Button)
 
-Vue.config.productionTip = false;
+Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app');
+  render: h => h(App)
+}).$mount('#app')

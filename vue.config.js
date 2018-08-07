@@ -19,7 +19,7 @@ module.exports = {
 
   // use the full build with in-browser compiler?
   // https://vuejs.org/v2/guide/installation.html#Runtime-Compiler-vs-Runtime-only
-  compiler: false,
+  // compiler: false,
 
   // tweak internal webpack configuration.
   // see https://github.com/vuejs/vue-cli/blob/dev/docs/webpack.md
@@ -47,7 +47,7 @@ module.exports = {
 
   // vue-loader options
   // https://vue-loader.vuejs.org/en/options.html
-  vueLoader: {},
+  // vueLoader: {},
 
   // generate sourceMap for production build?
   productionSourceMap: true,
@@ -76,7 +76,7 @@ module.exports = {
   // split vendors using autoDLLPlugin?
   // can also be an explicit Array of dependencies to include in the DLL chunk.
   // See https://github.com/vuejs/vue-cli/blob/dev/docs/cli-service.md#dll-mode
-  dll: false,
+  // dll: false,
 
   // options for the PWA plugin.
   // see https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa

@@ -1,10 +1,5 @@
 <template>
-  <button
-    class="be-button"
-    @click="handleClick"
-    :disabled="disabled"
-    :class="btnClass"
-  > 
+  <button class="be-button" @click="handleClick" :disabled="disabled" :class="btnClass">
     <slot></slot>
   </button>
 </template>
@@ -66,15 +61,16 @@ export default {
   text-decoration: none;
   /* border: none; */
   border: 2px solid #fd9c27;
-  font-family: "Microsoft YaHei",Arial,sans-serif;
+  font-family: 'Microsoft YaHei', Arial, sans-serif;
   font-weight: 400;
   cursor: pointer;
   padding: 0 15px;
 }
-.be-button:hover, .be-button:focus {
+.be-button:hover,
+.be-button:focus {
   border-style: solid;
   border-color: #fd9c27;
-  background-color: rgba(	253, 156, 39, 0.7);
+  background-color: rgba(253, 156, 39, 0.7);
   outline: none;
 }
 .be-btn-size-small {
@@ -103,7 +99,8 @@ export default {
   color: #fd9c27;
   border: 2px solid #fd9c27;
 }
-.be-btn-plain:hover, .be-btn-plain:focus {
+.be-btn-plain:hover,
+.be-btn-plain:focus {
   background-color: #fd9c27;
   color: #fff;
 }
@@ -113,7 +110,9 @@ export default {
 .be-btn-round {
   border-radius: 35px;
 }
-.be-btn-disabled, .be-btn-disabled:hover, .be-btn-disabled:focus {
+.be-btn-disabled,
+.be-btn-disabled:hover,
+.be-btn-disabled:focus {
   cursor: not-allowed;
   border-color: #e6ebf5;
   color: #b7bbc2;

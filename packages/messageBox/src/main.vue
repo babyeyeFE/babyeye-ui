@@ -57,7 +57,7 @@
       <div class="be-msg-btn">
         <be-button @click="close" :italic="btnItalic" :size="btnSize">确定</be-button>
       </div>
-  </div>
+    </div>
   </div>
 </template>
 <script>
@@ -118,9 +118,9 @@ export default {
   position: fixed;
   padding: 10px;
   color: #fff;
-  background:#697594;
+  background: #697594;
   border-radius: 4px;
-  top:50%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
@@ -140,25 +140,25 @@ export default {
     border-radius: 50%;
   }
   .be-icon-eyecheck {
-    background-image: url("../../../public/img/icon/icon-eyecheck.png");
+    background-image: url('../../../public/img/icon/icon-eyecheck.png');
   }
   .be-icon-eyeposition {
-    background-image: url("../../../public/img/icon/icon-eyeposition.png");
+    background-image: url('../../../public/img/icon/icon-eyeposition.png');
   }
   .be-icon-fourlamp {
-    background-image: url("../../../public/img/icon/icon-fourlamp.png");
+    background-image: url('../../../public/img/icon/icon-fourlamp.png');
   }
   .be-icon-fusion {
-    background-image: url("../../../public/img/icon/icon-fusion.png");
+    background-image: url('../../../public/img/icon/icon-fusion.png');
   }
   .be-icon-sensitivity {
-    background-image: url("../../../public/img/icon/icon-sensitivity.png");
+    background-image: url('../../../public/img/icon/icon-sensitivity.png');
   }
   .be-icon-stecheck {
-    background-image: url("../../../public/img/icon/icon-stecheck.png");
+    background-image: url('../../../public/img/icon/icon-stecheck.png');
   }
   .be-icon-snr {
-    background-image: url("../../../public/img/icon/icon-snr.png");
+    background-image: url('../../../public/img/icon/icon-snr.png');
   }
   .be-msg-box-content {
     line-height: 1.8;
@@ -170,21 +170,23 @@ export default {
   }
   .sen {
     margin: 15px auto;
-    border-collapse:collapse;
-    border-spacing:0;
+    border-collapse: collapse;
+    border-spacing: 0;
     th {
       border-bottom: 1px solid #fff;
     }
-    td, th {
+    td,
+    th {
       width: 30%;
       padding: 5px 0;
     }
   }
   .vergence {
     margin: 15px auto;
-    border-collapse:collapse;
-    border-spacing:0;
-    td, th {
+    border-collapse: collapse;
+    border-spacing: 0;
+    td,
+    th {
       // width: 25%;
       border: 1px solid #fff;
       padding: 5px 20px 10px;
@@ -197,9 +199,9 @@ export default {
     width: 600px;
     padding: 30px;
     .be-msg-box-title {
-    line-height: 60px;
-    font-size: 28px;
-    // height: 40px;
+      line-height: 60px;
+      font-size: 28px;
+      // height: 40px;
     }
     .be-msg-box-icon {
       margin: 20px auto;
@@ -217,14 +219,15 @@ export default {
         font-size: 20px;
       }
     }
-    .sen, .vergence {
+    .sen,
+    .vergence {
       font-size: 18px;
     }
   }
 }
 
 @media only screen and(max-width: 768px) {
-  .be-msg-box{
+  .be-msg-box {
     width: 100vw;
   }
 }

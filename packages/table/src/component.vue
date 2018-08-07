@@ -50,20 +50,23 @@ export default {
   th {
     border-bottom: 2px solid #22c4fc;
   }
-  td, th {
+  td,
+  th {
     padding: 5px 10px;
   }
   td {
-    border-bottom: 1px solid hsla(0,0%,100%,.1);
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
   }
 }
 .be-table-border {
-  td, th {
+  td,
+  th {
     border: 1px solid #fff;
   }
 }
 .be-table-small {
-  td, th {
+  td,
+  th {
     padding: 0;
     font-size: 0.9em;
   }
@@ -72,7 +75,8 @@ export default {
   }
 }
 .be-table-noline {
-  td, th {
+  td,
+  th {
     border: none;
   }
 }

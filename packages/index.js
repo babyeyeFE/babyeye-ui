@@ -3,12 +3,7 @@ import MessageBox from './messageBox'
 import Dialog from './dialog'
 import Table from './table'
 
-const components = [
-  Button,
-  MessageBox,
-  Dialog,
-  Table
-]
+const components = [Button, MessageBox, Dialog, Table]
 
 const install = (Vue = {}) => {
   components.map(component => Vue.component(component.name, component))
@@ -21,10 +16,4 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue)
 }
 
-export {
-  install,
-  Button,
-  MessageBox,
-  Dialog,
-  Table
-}
+export { install, Button, MessageBox, Dialog, Table }

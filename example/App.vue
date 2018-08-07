@@ -3,20 +3,16 @@
     <img src="./assets/logo.png">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <be-button size="large" italic round disabled @click="handleClick" >哈哈hhhhhhh</be-button> -->
-    <be-button italic  @click="isDialogVisible=!isDialogVisible" >显示dialog</be-button>
+    <be-button italic @click="isDialogVisible=!isDialogVisible">显示dialog</be-button>
 
     <!-- <be-msg></be-msg> -->
     <be-dialog title="表格测试" :isVisible.sync="isDialogVisible">
-      <be-table
-        :data="tableData"
-        :column="[
+      <be-table :data="tableData" :column="[
           {label: '日期', prop: 'date', width: '150px'},
           {label: '姓名', prop: 'name', width: '150px'},
           {label: '省份', prop: 'province', width: '75px'},
           {label: '邮编', prop: 'zip'},
-        ]"
-        noline
-      />
+        ]" noline />
     </be-dialog>
   </div>
 </template>
